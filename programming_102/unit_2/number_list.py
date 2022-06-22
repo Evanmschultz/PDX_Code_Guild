@@ -36,7 +36,7 @@ def try_except_input_func():
     user_list = []
 
     while True: 
-        # This seems much shorter and easier to read than the other method
+        # This seems easier to read than the other method and it works better
         user_input = input("Enter a number or 'done' to quit: \n").lower()
 
         if user_input == "done":
