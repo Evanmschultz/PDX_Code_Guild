@@ -30,7 +30,7 @@ while convert_more == "yes":
         print("Make sure you are typing the 2 digit representation of the unit, or 'm' for meter.")
         convert_from = input("\nEnter the unit you want to convert from:\n").lower()
 
-    convert_to = input("\nEnter the unit you want to convert to:\n")
+    convert_to = input("\nEnter the unit you want to convert to:\n").lower()
     while convert_to not in conversions:
         if convert_to == "done":
             exit()
